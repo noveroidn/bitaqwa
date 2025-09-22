@@ -16,7 +16,8 @@ class DoaListScreen extends StatelessWidget {
       backgroundColor: Color(0xFFE4F2FD),
       appBar: AppBar(
         backgroundColor: ColorConstant.colorPrimary,
-        title: Text("List Doa",
+        title: Text(
+            category,
           style: TextStyle(
             fontFamily: "PoppinsMedium",
             color: Colors.white,

@@ -238,6 +238,184 @@ List<Map<String, String>> getDoaList(String category) {
           'reference': 'Hadist Riwayat At-Tirmizi'
         },
       ];
+    case "Pakaian":
+      return [
+        {
+          'image': 'assets/images/pakaian.png',
+          'title': 'Doa memakai pakaian baru',
+          'arabicText':
+          'اللَّهُمَّ لَكَ الْحَمْدُ، أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ خَيْرَهُ وَخَيْرَ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ',
+          'translation':
+          'Ya Allah, hanya milik-Mu segala puji, Engkau yang telah memakaikan aku pakaian ini. Aku memohon kebaikannya dan kebaikan tujuan dibuatnya, serta berlindung kepada-Mu dari keburukannya dan keburukan tujuan dibuatnya.',
+          'reference': 'HR. Abū Dāwūd no. 4020, at-Tirmidzī no. 1767'
+        },
+        {
+          'image': 'assets/images/pakaian.png',
+          'title': 'Doa untuk orang yang mengenakan pakaian baru',
+          'arabicText':
+          'تُبْلِي وَيُخْلِفُ اللهُ لَكَ',
+          'translation':
+          'Semoga engkau memakainya hingga usang dan Allah menggantinya dengan yang lebih baik.',
+          'reference': 'HR. Abū Dāwūd no. 4021, an-Nasā’ī no. 5333.'
+        },
+        {
+          'image': 'assets/images/pakaian.png',
+          'title': 'Doa bagi orang yang diberi pakaian oleh saudaranya',
+          'arabicText':
+          'أَلْبِسْتَكَ اللَّهُ عِيشًا صَالِحًاَ',
+          'translation':
+          'Semoga Allah memberimu kehidupan yang baik dengan pakaian itu.',
+          'reference': 'Diriwayatkan oleh Abū Dāwūd dalam Sunan-nya, bab “Libās.'
+        },
+        {
+          'image': 'assets/images/pakaian.png',
+          'title': 'Anjuran Nabi ﷺ tentang pakaian putih',
+          'arabicText':
+          'ٱلْبَسُوا مِنْ ثِيَابِكُمُ ٱلْبَيَاضَ، فَإِنَّهَا خَيْرُ ثِيَابِكُمْ، وَكَفِّنُوا فِيهَا مَوْتَاكُمْ',
+          'translation':
+          'Pakailah pakaian putih, karena itu adalah pakaian terbaik kalian, dan kafanilah orang yang meninggal dengan kain putih.',
+          'reference': 'HR. Abū Dāwūd no. 4061, an-Nasā’ī no. 5326.'
+        },
+        {
+          'image': 'assets/images/pakaian.png',
+          'title': 'Dzikir saat mengenakan pakaian',
+          'arabicText':
+          'الْحَمْدُ لِلّٰهِ الَّذِي كَسَانِي هٰذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍْ',
+          'translation':
+          'Segala puji bagi Allah yang telah memberiku pakaian ini dan menganugerahkannya tanpa daya dan kekuatan dariku.',
+          'reference': 'HR. Abu Dāwūd no. 4023, at-Tirmidzī no. 3458.'
+        },
+      ];
+    case "Perlindungan":
+      return [
+        {
+          'image': 'assets/images/logo_perlindungan.png',
+          'title': 'Doa Agar Terhindar Dari Syirik',
+          'arabicText': 'اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ أَنْ أُشْرِكَ بِكَ وَأَنَا أَعْلَمُ، وَأَسْتَغْفِرُكَ لِمَا لَا أَعْلَمُ',
+          'translation': 'Ya Allah, aku berlindung kepada-Mu dari mempersekutukan-Mu sedang aku mengetahuinya, dan aku memohon ampun kepada-Mu dari apa yang tidak aku ketahui.',
+          'reference': 'HR. Ahmad no. 27832'
+        },
+        {
+          'image': 'assets/images/logo_perlindungan.png',
+          'title': 'Doa Perlindungan Untuk Anak',
+          'arabicText': 'أُعِيذُكُمَا بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ وَمِنْ كُلِّ عَيْنٍ لَامَّةٍ',
+          'translation': 'Aku mohon perlindungan untuk kalian berdua dengan kalimat-kalimat Allah yang sempurna, dari setiap setan, binatang pengganggu, dan dari pandangan mata jahat.',
+          'reference': 'HR. Bukhari no. 3371'
+        },
+        {
+          'image': 'assets/images/logo_perlindungan.png',
+          'title': 'Doa Agar Dijaga Dari Keburukan Penyakit',
+          'arabicText': 'اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْبَرَصِ وَالْجُنُوْنِ وَالْجُذَامِ وَسَيِّىْءِ الْأَسْقَامِ',
+          'translation': 'Ya Allah, aku berlindung kepada-Mu dari penyakit belang, gila, lepra, dan segala penyakit buruk.',
+          'reference': 'HR. Abu Dawud no. 1554, An-Nasa’i no. 5475'
+        },
+        {
+          'image': 'assets/images/logo_perlindungan.png',
+          'title': 'Doa Agar Dilindungi Dari Fitnah Dunia & Akhirat',
+          'arabicText': 'اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنْ فِتْنَةِ الدُّنْيَا وَعَذَابِ الْقَبْرِ',
+          'translation': 'Ya Allah, aku berlindung kepada-Mu dari fitnah dunia dan siksa kubur.',
+          'reference': 'HR. Bukhari no. 1377, Muslim no. 2867'
+        },
+        {
+          'image': 'assets/images/logo_perlindungan.png',
+          'title': 'Doa singkat perlindungan dari neraka',
+          'arabicText': 'اَللّٰهُمَّ أَجِرْنِي مِنَ النَّارِ',
+          'translation': 'Ya Allah, lindungilah aku dari api neraka.',
+          'reference': 'HR. Abu Dawud no. 5079'
+        },
+      ];
+    case "Kebaikan & Keberkahan":
+      return [
+        {
+          'image': 'assets/images/love.png',
+          'title': 'Doa Mohon Kebaikan Dunia dan Akhirat',
+          'arabicText':
+          'رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ',
+          'translation':
+          'Ya Tuhan kami, berikanlah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari azab api neraka.',
+          'reference': 'Hadist Riwayat Bukhari dan Muslim'
+        },
+        {
+          'image': 'assets/images/love.png',
+          'title': 'Doa Mohon Ampunan Dosa',
+          'arabicText': 'اَللَّهُمَّ إِنِّيْ ظَلَمْتُ نَفْسِيْ ظُلْمًا كَثِيْرًا، وَلَا يَغْفِرُ الذُّنُوْبَ إِلَّا أَنْتَ، فَاغْفِرْ لِيْ مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِيْ، إِنَّكَ أَنْتَ الْغَفُوْرُ الرَّحِيْمُ',
+          'translation':
+          'Ya Allah, sesungguhnya aku telah menzalimi diriku sendiri dengan kezaliman yang besar. Dan tidak ada yang mengampuni dosa selain Engkau. Maka ampunilah aku dengan pengampunan dari sisi-Mu dan rahmatilah aku. Sesungguhnya Engkau adalah Maha Pengampun lagi Maha Penyayang.',
+          'reference': 'Hadist Riwayat Bukhari dan Muslim'
+        },
+        {
+          'image': 'assets/images/love.png',
+          'title': 'Doa Mohon Rezeki yang Halal dan Berkah',
+          'arabicText':
+          'اَللَّهُمَّ اكْفِنِيْ بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِيْ بِفَضْلِكَ عَمَّنْ سِوَاكَُ',
+          'translation':
+          'Ya Allah, cukupkanlah aku dengan rezeki-Mu yang halal (hingga aku tidak meminta) dari rezeki yang haram, dan kayakanlah aku dengan karunia-Mu hingga aku tidak meminta kepada selain-Mu.',
+          'reference': 'Hadist Riwayat At-Tirmidzi'
+        },
+        {
+          'image': 'assets/images/love.png',
+          'title': 'Doa Mohon Ketetapan Hati',
+          'arabicText': 'يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ',
+          'translation': 'Wahai Dzat yang membolak-balikkan hati, tetapkanlah hatiku di atas agama-Mu.',
+          'reference': 'Hadist Riwayat At-Tirmidzi dan Ahmad'
+        },
+        {
+          'image': 'assets/images/love.png',
+          'title': 'Doa untuk Kedua Orang Tua',
+          'arabicText': 'رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًاَ',
+          'translation': 'Ya Tuhanku, ampunilah aku dan kedua orang tuaku, serta sayangilah mereka sebagaimana mereka menyayangiku di waktu aku masih kecil.',
+          'reference': 'Q.S Al-Isra : 24'
+        },
+      ];
+    case "Doa belajar" :
+      return [
+        {
+          'image': 'assets/images/doa_belajar.png',
+          'title': 'Do’a sebelum belajar',
+          'arabicText':
+          'اَللّٰهُمَّ اِنِّيْ اَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا طَيِّبًا وَعَمَلًا مُتَقَبَّلًا',
+          'translation':
+          'Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang baik, dan amal yang diterima.',
+          'reference': 'Hadist Riwayat Bukhari'
+        },
+        {
+          'image': 'assets/images/doa_belajar.png',
+          'title': 'Do’a sesudah belajar',
+          'arabicText':
+          'اَللّٰهُمَّ انْفَعْنِي بِمَا عَلَّمْتَنِي وَعَلِّمْنِي مَا يَنْفَعُنِي وَزِدْنِي عِلْمًا',
+          'translation':
+          'Ya Allah, berilah manfaat dari ilmu yang Engkau ajarkan, ajarkanlah kepadaku ilmu yang bermanfaat, dan tambahkanlah kepadaku ilmu.',
+          'reference': 'Hadist Riwayat Bukhari'
+        },
+        {
+          'image': 'assets/images/doa_belajar.png',
+          'title': 'Do’a memohon kemudahan ilmu',
+          'arabicText':
+          'اَللّٰهُمَّ اجْعَلْ لِيْ فِيْ قَلْبِيْ نُوْرًا وَفِيْ لِسَانِيْ نُوْرًا وَاجْعَلْ فِيْ سَمْعِيْ نُوْرًا وَفِيْ بَصَرِيْ نُوْرًا',
+          'translation':
+          'Ya Allah, jadikanlah cahaya dalam hatiku, di lisanku, dalam pendengaranku, dan dalam penglihatanku',
+          'reference': 'Hadist Riwayat Bukhari'
+        },
+        {
+          'image': 'assets/images/doa_belajar.png',
+          'title': 'Do’a agar dimudahkan menghafal',
+          'arabicText':
+          'اَللّٰهُمَّ اجْعَلْ حِفْظِي فِيْ قَلْبِي وَتَذْكِرَتِي فِي صَدْرِي وَنُوْرِي فِي قَلْبِي',
+          'translation':
+          'Ya Allah, jadikanlah hafalanku di dalam hatiku, ingatanku di dadaku, dan cahayaku di hatiku.',
+          'reference': 'Hadist Riwayat Bukhari'
+        },
+        {
+          'image': 'assets/images/doa_belajar.png',
+          'title': 'Do’a memohon kepintaran',
+          'arabicText':
+          'اَللّٰهُمَّ فَقِّهْنِي فِي الدِّيْنِ وَعَلِّمْنِي التَّأْوِيْلَ وَاهْدِنِيْ صِرَاطَكَ الْمُسْتَقِيْمَ',
+          'translation':
+          'Ya Allah, fahamkanlah aku dalam urusan agama, ajarkanlah aku penafsiran yang benar, dan tunjukilah aku jalan-Mu yang lurus.',
+          'reference': 'Hadist Riwayat Bukhari'
+        },
+      ];
+
     default:
       return [];
   }

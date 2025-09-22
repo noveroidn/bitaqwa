@@ -31,6 +31,70 @@ class DetailDoaScreen extends StatelessWidget {
             )
         ),
       ),
+      body: Container(
+        height: MediaQuery.sizeOf(context).height,
+        decoration: BoxDecoration(
+            image: DecorationImage(image: AssetImage(
+              "assets/images/bg_detail_doa.png",
+            ),
+                fit: BoxFit.cover
+            )
+        ),
+        child: SingleChildScrollView(
+          padding: EdgeInsets.all(40),
+          child: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
+              color: Colors.white,
+            ),
+            padding: EdgeInsets.symmetric(
+              horizontal: 16,
+              vertical: 20,
+            ),
+            child: Column(
+              spacing: 16,
+              children: [
+                Text(
+                  title,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontFamily: "PoppinsBold",
+                  ),
+                ),
+                Text(
+                  arabicText,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontFamily: "PoppinsRegular",
+                    color: Colors.grey,
+                  ),
+                ),
+                Text(
+                  translation,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontFamily: "PoppinsRegular",
+                    color: Color(0xFF75A2C6),
+                  ),
+                ),
+                SizedBox(height: 26,),
+                Text(
+                  reference,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontFamily: "PoppinsRegular",
+                    color: Colors.grey,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

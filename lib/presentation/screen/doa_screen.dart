@@ -93,15 +93,39 @@ class DoaScreen extends StatelessWidget {
                               );
                             }
                         ),CardDoa(
-              image: "assets/images/ic_doa_sholat.png",
-              title: "Pakaian",
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context) => DoaListScreen(category: 'Pakaian',)
-                )
-                );
-              }
-                        )
-                      ],
+                            image: "assets/images/pakaian.png",
+                            title: "Pakaian",
+                            onTap: (){
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => DoaListScreen(category: 'Pakaian',)
+                            )
+                            );
+                           }
+                        ),CardDoa(
+                            image: "assets/images/logo_perlindungan.png",
+                            title: "Pelindungan",
+                            onTap: (){
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => DoaListScreen(category: 'Perlindungan',)
+                              )
+                              );
+                            }
+                        ),CardDoa(
+                            image: "assets/images/love.png",
+                            title: "Kebaikan & Keberkahan",
+                            onTap: (){
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => DoaListScreen(category: 'Kebaikan & Keberkahan',)
+                              )
+                              );
+                            }
+                        ),CardDoa(
+                            image: "assets/images/doa_belajar.png",
+                            title: "Do'a belajar",
+                            onTap: (){
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => DoaListScreen(category: 'Doa belajar',)
+                              )
+                              );
+                            }
+                        ),
+                       ],
                     ),
             ),
           )

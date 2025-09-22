@@ -1,4 +1,5 @@
 import 'package:bitaqwa/presentation/screen/doa_screen.dart';
+import 'package:bitaqwa/presentation/screen/kajian_screen.dart';
 import 'package:bitaqwa/utilities/color_constant.dart';
 import 'package:flutter/material.dart';
 
@@ -141,19 +142,35 @@ class DashboardScreen extends StatelessWidget {
                 )
               ],
             ),
-            Column(
-              children: [
-                Image.asset("assets/images/ic_menu_video_kajian.png", width: 95,
-                  height: 95,),
-                Text("Video Kajian", style: TextStyle(
-                  fontSize: 14,
-                  fontFamily: "PoppinsSemiBold",
-                  fontWeight: FontWeight.w600,
-                  color: Colors.white,
-                ),
-                )
-              ],
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const KajianScreen()),
+                );
+              },
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Image.asset(
+                    "assets/images/ic_menu_video_kajian.png",
+                    width: 95,
+                    height: 95,
+                  ),
+                  const SizedBox(height: 8),
+                  const Text(
+                    "Video Kajian",
+                    style: TextStyle(
+                      fontSize: 14,
+                      fontFamily: "PoppinsSemiBold",
+                      fontWeight: FontWeight.w600,
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
+              ),
             )
+
           ],
         )
         )
@@ -164,12 +181,11 @@ class DashboardScreen extends StatelessWidget {
       return Container(
         margin: EdgeInsets.symmetric(horizontal: 16),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               "Inspiration", style: TextStyle(fontSize: 20, fontFamily: "PoppinsSemiBold", ),
             ),
-            Image.asset("assets/images/img_inspiration.png"),
+            Image.asset("assets/images/img_inspiration.png", alignment: Alignment.center,),
             Image.asset("assets/images/img_inspiration_2.jpeg"),
             Image.asset("assets/images/img_inspiration_3.jpeg"),
             Image.asset("assets/images/img_inspiration_4.jpeg"),

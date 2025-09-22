@@ -24,7 +24,7 @@ class CardDoa extends StatelessWidget {
               boxShadow: [
                 BoxShadow(
                   // ignore: deprecated_member_use
-                  color: Colors.black.withOpacity(0.25),
+                  color: Colors.black.  withOpacity(0.25),
                   blurRadius: 4,
                 )
               ]
