@@ -1,3 +1,4 @@
+import 'package:bitaqwa/presentation/screen/detail_kajian_screen.dart';
 import 'package:bitaqwa/utilities/color_Constant.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -45,8 +46,19 @@ class KajianScreen extends StatelessWidget {
               title: item['title']!,
               ustadz: item['ustadz']!,
               onTap: () {
-                // Navigate to detail or open YouTube
-                debugPrint('Tapped: ${item['title']}');
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailKajianScreen(
+
+                      account: item['account']!,
+                      title: item['title']!,
+                      ustadz: item['ustadz']!,
+                      description: item['description']!,
+                      youtubeurl: item['url']!,
+                    ),
+                  ),
+                );
               },
             ),
           );

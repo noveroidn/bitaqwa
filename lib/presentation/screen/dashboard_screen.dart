@@ -1,5 +1,7 @@
 import 'package:bitaqwa/presentation/screen/doa_screen.dart';
+import 'package:bitaqwa/presentation/screen/jadwal_sholat_screen.dart';
 import 'package:bitaqwa/presentation/screen/kajian_screen.dart';
+import 'package:bitaqwa/presentation/screen/zakat_screen.dart';
 import 'package:bitaqwa/utilities/color_constant.dart';
 import 'package:flutter/material.dart';
 
@@ -116,31 +118,49 @@ class DashboardScreen extends StatelessWidget {
                 ],
               ),
             ),
-            Column(
-              children: [
-                Image.asset("assets/images/ic_menu_zakat.png", width: 95,
-                height: 95,),
-                Text("Zakat", style: TextStyle(
-                  fontSize: 14,
-                    fontFamily: "PoppinsSemiBold",
-                  fontWeight: FontWeight.w600,
-                  color: Colors.white,
-                 ),
-                )
-              ],
-            ),
-            Column(
-              children: [
-                Image.asset("assets/images/ic_menu_jadwal_sholat.png", width: 95,
+            GestureDetector(
+              onTap: (){
+                Navigator.push(
+                    context, MaterialPageRoute(
+                    builder: (context) => ZakatScreen())
+                );
+              },
+              child: Column(
+                children: [
+                  Image.asset("assets/images/ic_menu_zakat.png", width: 95,
                   height: 95,),
-                Text("Jadwal Sholat", style: TextStyle(
-                  fontSize: 14,
-                  fontFamily: "PoppinsSemiBold",
-                  fontWeight: FontWeight.w600,
-                  color: Colors.white,
-                ),
-                )
-              ],
+                  Text("Zakat", style: TextStyle(
+                    fontSize: 14,
+                      fontFamily: "PoppinsSemiBold",
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white,
+                   ),
+                  )
+                ],
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  // Ganti 'placeholder.DoaScreen()' dengan 'JadwalSholatScreen()'
+                  // setelah Anda mengimpor file yang benar.
+                  MaterialPageRoute(builder: (context) => const JadwalSholatScreen()),
+                );
+              },
+              child: Column(
+                children: [
+                  Image.asset("assets/images/ic_menu_jadwal_sholat.png", width: 95,
+                    height: 95,),
+                  Text("Jadwal Sholat", style: TextStyle(
+                    fontSize: 14,
+                    fontFamily: "PoppinsSemiBold",
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white,
+                  ),
+                  )
+                ],
+              ),
             ),
             GestureDetector(
               onTap: () {

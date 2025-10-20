@@ -51,6 +51,7 @@ class CardKajian extends StatelessWidget {
               style: const TextStyle(
                 fontSize: 12,
                 color: Colors.grey,
+                fontFamily: "PoppinsLight"
               ),
             ),
             const SizedBox(height: 4),
@@ -59,6 +60,7 @@ class CardKajian extends StatelessWidget {
               style: const TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.bold,
+                fontFamily: "PoppinsBold"
               ),
             ),
             const SizedBox(height: 4),
@@ -66,7 +68,8 @@ class CardKajian extends StatelessWidget {
               ustadz,
               style: const TextStyle(
                 fontSize: 12,
-                color: Colors.grey,
+                color: Colors.red,
+                fontFamily: "PoppinsMedium"
               ),
             ),
           ],
